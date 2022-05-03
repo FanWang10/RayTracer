@@ -1,0 +1,20 @@
+To Compile:
+$ make
+
+To Run (Assuming you would like generate image100.ppm):
+$ ./a.out > image100.ppm
+
+Configuration In main.cpp
+cameraP is the position of camera, assign it with different value to generate different image.
+cameraVD is the view of field in degree of camera, assign it with different value to generate different image.
+lookAt is the look at vector of camera, assign it with different value to generate different image.
+Aperture is the Aperture of the camera, assign it with different value to generate different image.
+
+To add a sphere with Lambertian Style Material
+i.addLambertianObjectToScene(glm::vec3 color, glm::vec3 positionOfCenter, float radius);
+
+To add a sphere with Metal Style Material
+i.addMetalObjectToScene(glm::vec3 color, glm::vec3 positionOfCenter, float radius);
+
+To add a sphere with Dielectric Style Material
+i.addDielectricObjectToScene(float ir, glm::vec3 positionOfCenter, float radius);
