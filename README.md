@@ -1,2 +1,2 @@
 # RayTracer
-A Simple Ray Tracer Following Ray Tracer In a Weekend
+A Simple Ray Tracer Based On Ray Tracer In a Weekend
